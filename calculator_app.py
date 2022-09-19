@@ -21,3 +21,17 @@ elif operasi == '4':
     print('User memilih pembagian')
 else:
     print('Tidak valid')
+if operasi == '1':
+    hasil = bilangan_1 + bilangan_2
+    print(f'Hasil operasi dari {bilangan_1} + {bilangan_2} = {hasil}')
+elif operasi == '2':
+    hasil = bilangan_1 - bilangan_2
+    print(f'Hasil operasi dari {bilangan_1} - {bilangan_2} = {hasil}')
+elif operasi == '3':
+    hasil = bilangan_1 * bilangan_2
+    print(f'Hasil operasi dari {bilangan_1} * {bilangan_2} = {hasil}')
+elif operasi == '4':
+    hasil = bilangan_1 / bilangan_2
+    print(f'Hasil operasi dari {bilangan_1} / {bilangan_2} = {hasil}')
+else:
+    print('Tidak valid')
