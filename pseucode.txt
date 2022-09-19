@@ -1,4 +1,4 @@
- Mulai Program
+ START Program
    operasi;
    nilai,
    hasil;
@@ -38,5 +38,7 @@ IF angka 4 dipilih {
     }
 
 PRINT hasil ("Hasil operasi = " + hasil)
+
+END
 
 
