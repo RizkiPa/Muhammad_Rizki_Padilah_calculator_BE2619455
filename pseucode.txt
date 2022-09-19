@@ -1,0 +1,42 @@
+ Mulai Program
+   operasi;
+   nilai,
+   hasil;
+   cetak hasil;
+}
+
+IF angka 1 dipilih {
+    menampilkan();
+    operasi = '+';
+    INPUT nilai a dan nilai b
+    hasil = a + b;
+
+    }
+
+IF angka 2 dipilih {
+    menampilkan();
+    operasi = '-';
+    INPUT nilai a dan nilai b
+    hasil = a - b;
+
+    }
+
+IF angka 3 dipilih {
+    menampilkan();
+    operasi = '*';
+    INPUT nilai a dan nilai b
+    hasil = a * b;
+
+    }
+
+IF angka 4 dipilih {
+    menampilkan();
+    operasi = '/';
+    INPUT nilai a dan nilai b
+    hasil = a / b;
+
+    }
+
+PRINT hasil ("Hasil operasi = " + hasil)
+
+
